@@ -35,7 +35,6 @@ class RockAdapter(
     }
 }
 
-
 class RockHolder (val viewItem : View,
                   private val  onRockClick: (rock: Rock) -> Unit
     ) : RecyclerView.ViewHolder(viewItem) {
